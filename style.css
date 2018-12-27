@@ -1,0 +1,18 @@
+.gameBoard {
+  height: 100%;
+  width: 100%;
+  background-color: peachpuff;
+}
+
+.gameBoard .table {
+  display: grid;
+}
+
+.gameBoard .table .item {
+  text-align: center;
+  border: 1px solid;
+  padding: 5px;
+  min-height: 70px;
+  min-width: 70px;
+  background-color: peachpuff;
+}
